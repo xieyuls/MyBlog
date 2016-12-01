@@ -39,7 +39,7 @@ body{
 }
 .intro_button{
     position: fixed;
-    top:120px;
+    top:600px;
     right:8px;
     background: rgba(0,0,0,0);
     border:none;
@@ -57,7 +57,7 @@ body{
 
 .content_button{
     position: fixed;
-    top:80px;
+    top:150px;
     right:8px;
     background: rgba(0,0,0,0);
     border:none;
