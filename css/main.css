@@ -26,11 +26,9 @@ body{
     position:relative;
     width:100%;
     padding:0;
-    border: 1px solid green;
 }
 
 .intro{
-    border: 1px solid green;
     padding:10px;
     position: relative;
     width:100%;
