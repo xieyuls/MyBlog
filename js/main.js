@@ -11,7 +11,7 @@ window.onload = function() {
 	$(".intro_button").css("top",0.8*height);
     $(".content_button").css("top",0.2*height);
     var image=new Image();
-    img.src="../img/icon/icon1.jpg";
+    image.src="../img/icon/icon1.jpg";
 }
 
 $(".intro_button").click(function(){
