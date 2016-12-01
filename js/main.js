@@ -2,6 +2,7 @@
  * Created by zjf on 2016/12/1.
  */
 
+
 var height=$(window).height(); 
 
 window.onload = function() {
@@ -9,6 +10,8 @@ window.onload = function() {
 	$(".intro").css("height",height);
 	$(".intro_button").css("top",0.8*height);
     $(".content_button").css("top",0.2*height);
+    var image=new Image();
+    img.src="../img/icon/icon1.jpg";
 }
 
 $(".intro_button").click(function(){
