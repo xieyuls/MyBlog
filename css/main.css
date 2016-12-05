@@ -32,58 +32,69 @@ body{
     padding:10px;
     position: relative;
     width:100%;
-    background:url("../img/bg/intro.jpg") no-repeat center;
+    background:url("../img/bg/intro2.jpg") no-repeat center;
     background-size:90%;
 }
 
-.up{
-    width:50px;
-    height:50px;
+.select{
+    width:25px;
+    height:70px;
     position: fixed;
-    right:10px;
+    right:5px;
     background: rgba(0,0,0,0);
-    border:none;
+    text-align: center;
+
+}
+.select button{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    border:1px solid lightgreen;
     outline:none;
+    opacity: 0.2;
+}
+.select button:hover{
+    opacity: 0.5!important;
 }
 
-.up img{
-    position: fixed;
-    right:10px;
-    width:80px;
-    height:80px;
-}
+/*.up img{*/
+    /*position: fixed;*/
+    /*right:5px;*/
+    /*width:80px;*/
+    /*height:80px;*/
+/*}*/
 
 .content{
     position: relative;
 }
 
-.down{
-    width:50px;
-    height:50px;
-    position: fixed;
-    right:10px;
-    background: rgba(0,0,0,0);
-    border:none;
-    outline:none;
-}
+/*.down{*/
+    /*width:50px;*/
+    /*height:50px;*/
+    /*position: fixed;*/
+    /*right:5px;*/
+    /*background: rgba(0,0,0,0);*/
+    /*border:none;*/
+    /*outline:none;*/
+/*}*/
 
-.down img{
-    position: fixed;
-    right:10px;
-    width:80px;
-    height:80px;
-}
-
-
-.content1{
-    margin:50px;
+/*.down img{*/
+    /*position: fixed;*/
+    /*right:5px;*/
+    /*width:80px;*/
+    /*height:80px;*/
+/*}*/
+.content1,.content2{
+    margin-top:60px;
+    margin-left:50px;
     border:1px solid #ffffff;
     background: #ffffff;
     -webkit-box-shadow:2px 2px 5px rgb(159,159,159);
+    text-align: center;
  }
-.content2{
-    margin:50px;
-    border:1px solid #ffffff;
-    background: #ffffff;
-    -webkit-box-shadow:2px 2px 5px rgb(159,159,159);
+
+.content1 img,.content2 img{
+    margin-left:auto;
+    margin-right:auto;
 }
+
