@@ -6,6 +6,9 @@
 var height=$(window).height();
 var width=$(window).width();
 var count=0;
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+console.log($(window).height());
 $(".wrapper").css("height",(height)*3);
 $(".intro").css("height",height);
 $(".content").css("height",height);
